@@ -9,7 +9,7 @@
   width: 500px;
   margin: 0 auto;
   display: block;
-  text-align: right;;
+  text-align: right;
 }
 
 .head__img {
@@ -29,7 +29,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task-wrapper{
@@ -133,7 +133,8 @@
   width: 226px;
 }
 
-.list_item > .input-content {
+.list_item > 
+.input-content {
   width: 226px
 }
 
@@ -156,12 +157,12 @@
 
 /* Edit Task */
 .list .list__item .input-content {
-  display: none
+  display: none;
 }
 
 .list .edit-mode .input-content {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .edit-mode .label-content {
